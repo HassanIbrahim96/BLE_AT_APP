@@ -67,7 +67,7 @@ public class DeviceControlActivity extends Activity {
     private boolean mConnected = false;
     private BluetoothGattCharacteristic mNotifyCharacteristic;
 
-    Button mSend;
+    Button queryBt, setBt, testBt;
     EditText editText;
     Spinner atList;
 
@@ -129,7 +129,7 @@ public class DeviceControlActivity extends Activity {
                 System.arraycopy(insertSomething, 0, txBytes, 0, insertSomething.length);
                 System.arraycopy(rxBytes, 0, txBytes, insertSomething.length, rxBytes.length);
 
-                mSend.setOnClickListener(new View.OnClickListener() {
+                setBt.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         String val = editText.getText().toString();
@@ -142,6 +142,30 @@ public class DeviceControlActivity extends Activity {
                     }
                 });
 
+                queryBt.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        editText.setText("");
+                        if (bluetoothGattCharacteristicHM_10 != null) {
+                            bluetoothGattCharacteristicHM_10.setValue("AT+" + atList.getSelectedItem().toString() +  "?");
+                            mBluetoothLeService.writeCharacteristic(bluetoothGattCharacteristicHM_10);
+                            mBluetoothLeService.setCharacteristicNotification(bluetoothGattCharacteristicHM_10, true);
+                        }
+                    }
+                });
+
+
+                testBt.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        editText.setText("");
+                        if (bluetoothGattCharacteristicHM_10 != null) {
+                            bluetoothGattCharacteristicHM_10.setValue("AT");
+                            mBluetoothLeService.writeCharacteristic(bluetoothGattCharacteristicHM_10);
+                            mBluetoothLeService.setCharacteristicNotification(bluetoothGattCharacteristicHM_10, true);
+                        }
+                    }
+                });
 
             }
         }
@@ -196,7 +220,9 @@ public class DeviceControlActivity extends Activity {
         mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
 
         editText = findViewById(R.id.editText);
-        mSend = findViewById(R.id.sendBt);
+        queryBt = findViewById(R.id.queryBt);
+        setBt = findViewById(R.id.setBt);
+        testBt = findViewById(R.id.testBt);
         atList = findViewById(R.id.atList);
 
         // Sets up UI references.

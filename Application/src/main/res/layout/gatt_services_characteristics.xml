@@ -85,10 +85,28 @@
         android:ems="10"
         android:entries="@array/List_AT_Commands"
         android:inputType="textPersonName" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/queryBt"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:text="Query" />
+
+        <Button
+            android:id="@+id/setBt"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:text="Set" />
+    </LinearLayout>
+
 
     <Button
-        android:id="@+id/sendBt"
+        android:id="@+id/testBt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send" />
+        android:text="Test" />
 </LinearLayout>

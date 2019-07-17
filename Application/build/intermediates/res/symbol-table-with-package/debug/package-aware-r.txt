@@ -679,6 +679,7 @@ id notification_main_column_container
 id parentPanel
 id progress_circular
 id progress_horizontal
+id queryBt
 id radio
 id right_icon
 id right_side
@@ -697,7 +698,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
-id sendBt
+id setBt
 id shortcut
 id showCustom
 id showHome
@@ -712,6 +713,7 @@ id submenuarrow
 id submit_area
 id tabMode
 id tag_transition_group
+id testBt
 id text
 id text2
 id textSpacerNoButtons

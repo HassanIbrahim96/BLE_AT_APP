@@ -41,12 +41,26 @@
         <item>NAME</item>
         <item>ADDR</item>
         <item>IBEA</item>
-        <item>NAME?</item>
-        <item>RADD?</item>
+        <item>PWRM</item>
+        <item>POWE</item>
         <item>ADVI</item>
         <item>RESET</item>
         <item>RENEW</item>
         <item>IBE</item>
+        <item>BATT</item>
+        <item>BAUD</item>
+        <item>CLEAR</item>
+        <item>IBE</item>
+        <item>MEAS</item>
+        <item>MODE</item>
+        <item>NOTI</item>
+        <item>PASS</item>
+        <item>RSSI</item>
+        <item>TEMP</item>
+        <item>TYPE</item>
+        <item>UUID</item>
+        <item>VERS</item>
+        <item>VERR</item>
     </string-array>
 </resources>
 
