@@ -1,9 +1,8 @@
 
-Android BluetoothLeGatt Sample
+BLE AT Commands
 ===================================
 
-This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
-to transmit arbitrary data between devices.
+Send AT Commands to an HM-10 bluetooth module.
 
 Introduction
 ------------
@@ -14,10 +13,15 @@ Features
 ------------
 
 -Scan and connect to nearby BLE devices.
+
 -Send data (particularily AT commands) to an HM-10 module directly.
+
   -Every AT command is available in a drop-down list.
+  
   -A "test" button is available to send "AT" to the device.
+  
   -"Query" and "Set" buttons are available to inquire about info and set values within the module, respectively.
+  
 -Receive data from the HM-10 module.
 
 
