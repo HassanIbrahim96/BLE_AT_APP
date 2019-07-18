@@ -102,8 +102,8 @@ public final class R {
         public static final int tag_transition_group = 0x7f080078;
         public static final int text = 0x7f08007a;
         public static final int text2 = 0x7f08007b;
-        public static final int time = 0x7f08007e;
-        public static final int title = 0x7f08007f;
+        public static final int time = 0x7f08007f;
+        public static final int title = 0x7f080080;
     }
     public static final class integer {
         private integer() {}

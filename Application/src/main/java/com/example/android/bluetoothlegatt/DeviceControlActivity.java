@@ -68,8 +68,7 @@ public class DeviceControlActivity extends Activity {
     private boolean mConnected = false;
     private BluetoothGattCharacteristic mNotifyCharacteristic;
 
-    ImageButton queryBt, setBt;
-    Button testBt;
+    ImageButton queryBt, setBt, testBt;
     EditText editText;
     Spinner atList;
 

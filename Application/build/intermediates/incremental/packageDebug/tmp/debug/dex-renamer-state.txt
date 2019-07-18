@@ -1,4 +1,4 @@
-#Thu Jul 18 11:06:10 EEST 2019
+#Thu Jul 18 14:53:34 EEST 2019
 base.0=C\:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

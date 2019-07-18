@@ -53,10 +53,13 @@
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:layout_margin="10dp">
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:text="@string/label_data"
-                  android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="rockwell"
+            android:text="@string/label_data"
+            android:textSize="18sp" />
         <Space android:layout_width="5dp"
                android:layout_height="wrap_content"/>
         <TextView android:id="@+id/data_value"
@@ -69,7 +72,7 @@
     <ExpandableListView
         android:id="@+id/gatt_services_list"
         android:layout_width="match_parent"
-        android:layout_height="137dp" />
+        android:layout_height="64dp" />
 
     <EditText
         android:id="@+id/editText"
@@ -85,32 +88,51 @@
         android:ems="10"
         android:entries="@array/List_AT_Commands"
         android:inputType="textPersonName" />
-    <LinearLayout
-        android:layout_width="wrap_content"
+
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/queryBt"
-            android:layout_width="193dp"
+            android:layout_width="171dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/querybt"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="9dp"
             android:background="?android:selectableItemBackground"
+            android:src="@drawable/querybt"
             android:text="Query" />
 
         <ImageButton
             android:id="@+id/setBt"
-            android:layout_width="193dp"
+            android:layout_width="171dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/setbt"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="4dp"
             android:background="?android:selectableItemBackground"
+            android:src="@drawable/setbt"
             android:text="Set" />
-    </LinearLayout>
+    </RelativeLayout>
 
 
-    <Button
+    <ImageButton
         android:id="@+id/testBt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Test" />
+        android:text="Test"
+        android:src="@drawable/testbt"
+        android:background="?android:selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Lost? Click here to read the instructions"
+        android:textStyle="bold" />
 </LinearLayout>
