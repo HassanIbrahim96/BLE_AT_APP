@@ -90,16 +90,20 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/queryBt"
             android:layout_width="193dp"
             android:layout_height="wrap_content"
+            android:src="@drawable/querybt"
+            android:background="?android:selectableItemBackground"
             android:text="Query" />
 
-        <Button
+        <ImageButton
             android:id="@+id/setBt"
             android:layout_width="193dp"
             android:layout_height="wrap_content"
+            android:src="@drawable/setbt"
+            android:background="?android:selectableItemBackground"
             android:text="Set" />
     </LinearLayout>
 
