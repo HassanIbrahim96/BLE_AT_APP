@@ -268,6 +268,10 @@
         "source": "C:\\Users\\Hassan\\.gradle\\caches\\transforms-2\\files-2.1\\8be34531a3278f38c89b83eb7ffecda5\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\build\\intermediates\\res\\merged\\debug\\layout_instructions.xml.flat",
+        "source": "C:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\src\\main\\res\\layout\\instructions.xml"
+    },
+    {
         "merged": "C:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Hassan\\.gradle\\caches\\transforms-2\\files-2.1\\8be34531a3278f38c89b83eb7ffecda5\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -348,12 +352,12 @@
         "source": "C:\\Users\\Hassan\\.gradle\\caches\\transforms-2\\files-2.1\\8be34531a3278f38c89b83eb7ffecda5\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
-        "source": "C:\\Users\\Hassan\\.gradle\\caches\\transforms-2\\files-2.1\\7a0c5002187b12e5e219f8f72757679b\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Hassan\\.gradle\\caches\\transforms-2\\files-2.1\\8be34531a3278f38c89b83eb7ffecda5\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Hassan\\.gradle\\caches\\transforms-2\\files-2.1\\7a0c5002187b12e5e219f8f72757679b\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "C:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",

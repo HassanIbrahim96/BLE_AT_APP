@@ -659,11 +659,13 @@ id icon_group
 id ifRoom
 id image
 id info
+id instructions
 id italic
 id line1
 id line3
 id listMode
 id list_item
+id ll
 id media_actions
 id menu_connect
 id menu_disconnect
@@ -721,7 +723,6 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
 id time
 id title
 id titleDividerNoCustom
@@ -766,6 +767,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout actionbar_indeterminate_progress
 layout gatt_services_characteristics
+layout instructions
 layout listitem_device
 layout notification_action
 layout notification_action_tombstone
@@ -823,6 +825,7 @@ string ble_not_supported
 string connected
 string disconnected
 string error_bluetooth_not_supported
+string instructions_paragraph
 string intro_message
 string label_data
 string label_device_address

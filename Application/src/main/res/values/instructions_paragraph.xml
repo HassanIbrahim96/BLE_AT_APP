@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instructions_paragraph">
+        To start communication: \n \n
+
+        1) Click on Connect. \n
+        2) Choose HM-10 Module from the list. \n
+        3) Choose HM-10 Service from the second list. \n
+        \n
+        Buttons: \n \n
+
+        Set: Sends the value you chose from the command drop down list + the value in the empty field and sets it.\n\n
+        Query: Sends the value you chose from the command drop down list + a question mark, returns the value you chose.\n\n
+        Test: Sends AT to the device.
+    </string>
+        </resources>
