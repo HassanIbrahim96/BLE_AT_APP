@@ -11,6 +11,10 @@
 
             \t\tSet: Sends the value you chose from the command drop down list + the value in the empty field and sets it.\n\n
             \t\tQuery: Sends the value you chose from the command drop down list + a question mark, returns the value you chose.\n\n
-            \t\tTest: Sends AT to the device.
+            \t\tTest: Sends AT to the device.\n\n
+
+    </string>
+    <string name="datasheet_link">
+        \t\t<a href="https://lmgtfy.com/?q=hm+10+datasheet">Datasheet</a>
     </string>
         </resources>
