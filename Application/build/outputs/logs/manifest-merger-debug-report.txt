@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:20:1-52:12
-INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:20:1-52:12
-INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:20:1-52:12
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:2:1-43:12
 MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\cac1a45cba8106effa7371bcf4011c04\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\afc43a867c9ae38d690f9034329e4d30\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\5a09c4d3ace9cbca8a9a06115bc444d1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\8be34531a3278f38c89b83eb7ffecda5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\b9cba4ba3a0a5ca99379f9b2739998b9\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\035e0386e4dbcc6697e5b72237aaf123\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\1f6bc89fb821b88eefd96bb2b7fcdcea\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\30456a8b4e25d3a4474c0506fdb3e3a6\AndroidManifest.xml:17:1-22:12
@@ -15,76 +16,82 @@ MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Hassan\.gradle
 MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\9ff4cf43f607f0fd6518e6c2fa75f77e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\7a0c5002187b12e5e219f8f72757679b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\f83847fb22192b6bd5616fe388dcb3f6\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:20:1-52:12
-INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:20:1-52:12
+INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:2:1-43:12
 	package
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:21:5-50
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:3:5-50
 	android:versionName
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:23:5-30
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:5:5-30
 		INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:20:11-69
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:22:5-28
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml
 uses-feature#android.hardware.bluetooth_le
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:31:5-89
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:13:5-15:35
 	android:required
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:31:64-87
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:15:9-32
 	android:name
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:31:19-63
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:14:9-53
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:33:5-67
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:17:5-68
 	android:name
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:33:22-65
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:17:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:34:5-73
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:18:5-74
 	android:name
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:34:22-71
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:18:22-71
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:35:5-97
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:19:5-81
 	android:name
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:35:22-78
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:19:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:36:5-95
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:36:22-76
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:20:22-76
 application
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:38:5-50:19
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:22:5-41:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\b9cba4ba3a0a5ca99379f9b2739998b9\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\b9cba4ba3a0a5ca99379f9b2739998b9\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:38:18-50
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:24:9-41
 	android:icon
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:39:9-45
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:23:9-45
 	android:theme
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:40:9-56
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:25:9-56
+activity#com.example.android.bluetoothlegatt.InstructionsActivity
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:26:9-67
+	android:name
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:26:19-55
 activity#com.example.android.bluetoothlegatt.DeviceScanActivity
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:41:9-47:20
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:27:9-35:20
 	android:label
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:42:13-45
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:29:13-45
 	android:name
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:41:19-53
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:28:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:43:13-46:29
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:44:17-68
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:44:25-66
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:45:17-76
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:45:27-74
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:33:27-74
 activity#com.example.android.bluetoothlegatt.DeviceControlActivity
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:48:9-58
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:36:9-59
 	android:name
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:48:19-56
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:36:19-56
 service#com.example.android.bluetoothlegatt.BluetoothLeService
-ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:49:9-77
+ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:38:9-40:38
 	android:enabled
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:49:53-75
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:40:13-35
 	android:name
-		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:49:18-52
+		ADDED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml:39:13-47
 uses-sdk
 INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Hassan\StudioProjects\BLE_AT_APP\Application\src\main\AndroidManifest.xml
@@ -97,6 +104,8 @@ MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Hassan\.gradle\cac
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\5a09c4d3ace9cbca8a9a06115bc444d1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\8be34531a3278f38c89b83eb7ffecda5\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\8be34531a3278f38c89b83eb7ffecda5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\b9cba4ba3a0a5ca99379f9b2739998b9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\b9cba4ba3a0a5ca99379f9b2739998b9\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\035e0386e4dbcc6697e5b72237aaf123\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\035e0386e4dbcc6697e5b72237aaf123\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Hassan\.gradle\caches\transforms-2\files-2.1\1f6bc89fb821b88eefd96bb2b7fcdcea\AndroidManifest.xml:20:5-44

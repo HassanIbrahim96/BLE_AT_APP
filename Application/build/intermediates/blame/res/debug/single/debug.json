@@ -212,6 +212,10 @@
         "source": "C:\\Users\\Hassan\\.gradle\\caches\\transforms-2\\files-2.1\\8be34531a3278f38c89b83eb7ffecda5\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "C:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\build\\intermediates\\res\\merged\\debug\\layout_activity_instructions.xml.flat",
+        "source": "C:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\src\\main\\res\\layout\\activity_instructions.xml"
+    },
+    {
         "merged": "C:\\Users\\Hassan\\StudioProjects\\BLE_AT_APP\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Hassan\\.gradle\\caches\\transforms-2\\files-2.1\\8be34531a3278f38c89b83eb7ffecda5\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },

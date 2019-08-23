@@ -216,18 +216,21 @@ public class DeviceControlActivity extends Activity {
         mDataField.setText(R.string.no_data);
     }
 
-    public void goToInstructions(){
-        Context context = getApplicationContext();
-        LayoutInflater inflater = (LayoutInflater) context.getSystemService(LAYOUT_INFLATER_SERVICE);
-        View customView = inflater.inflate(R.layout.instructions,null);
-        PopupWindow instructionsPopUp;
-        instructionsPopUp = new PopupWindow(
-                customView,
-                LayoutParams.WRAP_CONTENT,
-                LayoutParams.WRAP_CONTENT
-        );
-        LinearLayout instructionsLayout = findViewById(R.id.ll);
-        instructionsPopUp.showAtLocation(instructionsLayout, Gravity.CENTER, 0, 0);
+    public void goToInstructions(View view){
+//        Context context = getApplicationContext();
+//        LayoutInflater inflater = (LayoutInflater) context.getSystemService(LAYOUT_INFLATER_SERVICE);
+//        View customView = inflater.inflate(R.layout.instructions,null);
+//        PopupWindow instructionsPopUp;
+//        instructionsPopUp = new PopupWindow(
+//                customView,
+//                LayoutParams.WRAP_CONTENT,
+//                LayoutParams.WRAP_CONTENT
+//        );
+//        LinearLayout instructionsLayout = findViewById(R.id.ll);
+//        instructionsPopUp.showAtLocation(instructionsLayout, Gravity.CENTER, 0, 0);
+        Intent i = new Intent(this, InstructionsActivity.class);
+        startActivity(i);
+
     }
     @Override
     public void onCreate(Bundle savedInstanceState) {
